@@ -1,10 +1,36 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Home" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:autofilledHighlight" tools:targetApi="o">
+            @color/fbutton_color_transparent
+        </item>
+
+    </style>
+
+
+    <style name="Form" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+
+        <item name="android:autofilledHighlight" tools:targetApi="o">@color/fbutton_color_transparent</item>
+        <item name="colorControlNormal">@color/colorAccent2</item>
+        <item name="colorControlActivated">@color/colorAccent1</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
     </style>
 
 </resources>
